@@ -1,0 +1,144 @@
+T635C 005:302.330   SEGGER J-Link V8.68 Log File
+T635C 005:302.477   DLL Compiled: Sep 10 2025 12:19:00
+T635C 005:302.489   Logging started @ 2026-01-03 01:47
+T635C 005:302.500   Process: C:\Keil_v5\UV4\UV4.exe
+T635C 005:302.517 - 5302.510ms 
+T635C 005:302.533 JLINK_SetWarnOutHandler(...)
+T635C 005:302.544 - 0.011ms 
+T635C 005:302.556 JLINK_OpenEx(...)
+T635C 005:307.417   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T635C 005:308.233   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T635C 005:308.347   Decompressing FW timestamp took 79 us
+T635C 005:316.194   Hardware: V9.40
+T635C 005:316.223   S/N: 69406514
+T635C 005:316.241   OEM: SEGGER
+T635C 005:316.258   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T635C 005:316.780   Bootloader: (FW returned invalid version)
+T635C 005:317.478   TELNET listener socket opened on port 19021
+T635C 005:317.667   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T635C 005:317.892   WEBSRV Webserver running on local port 19080
+T635C 005:318.067   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T635C 005:318.283   Looking for J-Link GUI Server exe at: D:\Dev\Tools\Jlink\JLink_V868\JLinkGUIServer.exe
+T635C 005:318.366   Forking J-Link GUI Server: D:\Dev\Tools\Jlink\JLink_V868\JLinkGUIServer.exe
+T635C 005:395.874   J-Link GUI Server info: "J-Link GUI server V8.68 "
+T635C 005:398.370 - 95.808ms returns "O.K."
+T635C 005:398.413 JLINK_GetEmuCaps()
+T635C 005:398.428 - 0.012ms returns 0xB9FF7BBF
+T635C 005:398.454 JLINK_TIF_GetAvailable(...)
+T635C 005:398.624 - 0.169ms 
+T635C 005:398.638 JLINK_SetErrorOutHandler(...)
+T635C 005:398.649 - 0.010ms 
+T635C 005:398.674 JLINK_ExecCommand("ProjectFile = "C:\Users\36241\Desktop\balance_car_demo01\MDK-ARM\JLinkSettings.ini"", ...). 
+T635C 005:420.445   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T635C 005:420.688   REF file references invalid XML file: D:\Dev\Tools\Jlink\JLink_V868\JLinkDevices.xml
+T635C 005:421.854 - 23.179ms returns 0x00
+T635C 005:421.886 JLINK_ExecCommand("Device = STM32F407VGTx", ...). 
+T635C 005:423.490   Device "STM32F407VG" selected.
+T635C 005:424.055 - 2.155ms returns 0x00
+T635C 005:424.082 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T635C 005:424.102   ERROR: Unknown command
+T635C 005:424.119 - 0.024ms returns 0x01
+T635C 005:424.150 JLINK_GetHardwareVersion()
+T635C 005:424.163 - 0.012ms returns 94000
+T635C 005:424.176 JLINK_GetDLLVersion()
+T635C 005:424.187 - 0.011ms returns 86800
+T635C 005:424.199 JLINK_GetOEMString(...)
+T635C 005:424.211 JLINK_GetFirmwareString(...)
+T635C 005:424.223 - 0.011ms 
+T635C 005:424.237 JLINK_GetDLLVersion()
+T635C 005:424.249 - 0.011ms returns 86800
+T635C 005:424.260 JLINK_GetCompileDateTime()
+T635C 005:424.270 - 0.010ms 
+T635C 005:424.283 JLINK_GetFirmwareString(...)
+T635C 005:424.294 - 0.011ms 
+T635C 005:424.306 JLINK_GetHardwareVersion()
+T635C 005:424.316 - 0.010ms returns 94000
+T635C 005:424.328 JLINK_GetSN()
+T635C 005:424.339 - 0.010ms returns 69406514
+T635C 005:424.354 JLINK_GetOEMString(...)
+T635C 005:424.372 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T635C 005:424.989 - 0.617ms returns 0x00
+T635C 005:425.015 JLINK_HasError()
+T635C 005:425.032 JLINK_SetSpeed(5000)
+T635C 005:425.093 - 0.062ms 
+T635C 005:425.386 JLINK_HasError()
+T635C 005:425.407 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T635C 005:425.418 - 0.011ms returns JLINKARM_RESET_TYPE_NORMAL
+T635C 005:425.430 JLINK_Reset()
+T635C 005:427.044   InitTarget() start
+T635C 005:427.073    J-Link Script File: Executing InitTarget()
+T635C 005:427.213   SWD selected. Executing JTAG -> SWD switching sequence.
+T635C 005:428.817   DAP initialized successfully.
+T635C 005:433.183   InitTarget() end - Took 6.10ms
+T635C 005:433.718   Found SW-DP with ID 0x2BA01477
+T635C 005:435.976   DPIDR: 0x2BA01477
+T635C 005:436.024   CoreSight SoC-400 or earlier
+T635C 005:436.042   Scanning AP map to find all available APs
+T635C 005:436.568   AP[1]: Stopped AP scan as end of AP map has been reached
+T635C 005:436.587   AP[0]: AHB-AP (IDR: 0x24770011, ADDR: 0x00000000)
+T635C 005:436.649   Iterating through AP map to find AHB-AP to use
+T635C 005:437.486   AP[0]: Core found
+T635C 005:437.507   AP[0]: AHB-AP ROM base: 0xE00FF000
+T635C 005:437.909   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+T635C 005:437.935   Found Cortex-M4 r0p1, Little endian.
+T635C 005:438.253   -- Max. mem block: 0x00010C40
+T635C 005:438.596   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T635C 005:438.911   CPU_ReadMem(4 bytes @ 0xE0002000)
+T635C 005:439.225   FPUnit: 6 code (BP) slots and 2 literal slots
+T635C 005:439.243   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T635C 005:439.572   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T635C 005:439.970   CPU_ReadMem(4 bytes @ 0xE0001000)
+T635C 005:440.269   CPU_WriteMem(4 bytes @ 0xE0001000)
+T635C 005:440.554   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T635C 005:440.909   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T635C 005:441.205   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T635C 005:441.473   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T635C 005:441.795   CoreSight components:
+T635C 005:441.814   ROMTbl[0] @ E00FF000
+T635C 005:441.831   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T635C 005:442.475   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T635C 005:442.962   [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+T635C 005:442.984   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T635C 005:443.463   [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+T635C 005:443.480   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T635C 005:443.937   [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+T635C 005:443.974   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T635C 005:444.447   [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+T635C 005:444.469   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T635C 005:444.911   [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+T635C 005:444.942   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T635C 005:445.414   [0][5]: E0041000 CID B105900D PID 000BB925 ETM
+T635C 005:445.477   JLINK_GetResetTypeDesc
+T635C 005:445.489   - 0.011ms 
+T635C 005:445.503   Reset type: NORMAL (https://wiki.segger.com/J-Link_Reset_Strategies)
+T635C 005:445.514   CPU is running
+T635C 005:445.531   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T635C 005:445.807   CPU is running
+T635C 005:445.827   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T635C 005:446.123   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T635C 005:446.421   Reset: Reset device via AIRCR.SYSRESETREQ.
+T635C 005:446.455   CPU is running
+T635C 005:446.475   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T635C 005:500.127   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T635C 005:500.475   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T635C 005:503.281   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T635C 005:509.080   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T635C 005:512.379   CPU_WriteMem(4 bytes @ 0xE0002000)
+T635C 005:513.009   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T635C 005:513.473   CPU_ReadMem(4 bytes @ 0xE0001000)
+T635C 005:513.902 - 88.470ms 
+T635C 005:513.990 JLINK_GetId()
+T635C 005:514.294 - 0.303ms returns 0x2BA01477
+T635C 005:522.156 JLINK_GetFirmwareString(...)
+T635C 005:522.183 - 0.027ms 
+T635C 006:809.184 JLINK_Close()
+T635C 006:809.461   OnDisconnectTarget() start
+T635C 006:809.490    J-Link Script File: Executing OnDisconnectTarget()
+T635C 006:809.514   CPU_WriteMem(4 bytes @ 0xE0042004)
+T635C 006:809.809   CPU_WriteMem(4 bytes @ 0xE0042008)
+T635C 006:810.098   OnDisconnectTarget() end - Took 606us
+T635C 006:810.117   CPU_ReadMem(4 bytes @ 0xE0001000)
+T635C 006:810.430   CPU_WriteMem(4 bytes @ 0xE0001004)
+T635C 006:818.628 - 9.444ms
+T635C 006:818.666   
+T635C 006:818.677   Closed
